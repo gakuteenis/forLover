@@ -1,0 +1,386 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #FFF;
+  font-family:'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+
+}
+
+/* header ３つ */
+header {
+  width: 100%;
+  padding-top: 0;
+  height: 65px;
+  border-bottom: solid 1px #EEEEEE;
+  position: fixed;
+  top: 0;
+  background-color: #FFF;
+}
+
+.header-left {
+  width: 20%;
+  font-size: 120%;
+  text-align: center;
+  line-height: 65px;
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  border-right: solid 1px #FFF;
+}
+
+.header-center {
+  width: 60%;
+  font-size: 120%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 65px;
+  box-sizing: border-box;
+  display: inline-block;
+  border-right: solid 1px #FFF;
+}
+
+.header-right {
+  width: 20%;
+  font-size: 120%;
+  text-align: center;
+  line-height: 65px;
+  box-sizing: border-box;
+  float: right;
+  display: inline-block;
+}
+
+/* header １つ */
+.foryou, .everynone-effort, .effort-result{
+  font-size: 120%;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 65px;
+  text-align: center;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  padding-bottom: 0;
+  height: 65px;
+  position: fixed;
+  bottom: 0;
+  border-top: solid 1px #EEEEEE;
+  background-color: #FFF;
+}
+
+.footer-left {
+  width: 33%;
+  text-align: center;
+  line-height: 65px;
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  border-right: solid 1px #FFF;
+}
+
+.footer-center {
+  width: 33%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 65px;
+  box-sizing: border-box;
+  display: inline-block;
+  border-right: solid 1px #FFF;
+}
+
+.footer-right {
+  width: 33%;
+  text-align: center;
+  line-height: 65px;
+  box-sizing: border-box;
+  float: right;
+  display: inline-block;
+}
+
+/* main */
+
+.main {
+  margin-top: 65px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+/* endlove */
+
+.last-message {
+  padding-top: 50%;
+}
+
+.finish {
+  font-size: 130%;
+  letter-spacing: 0.3em;
+}
+
+.fight {
+  font-size: 110%;
+  padding-top: 5%;
+}
+
+.ps {
+  font-size: 100%;
+  margin-top: 15%;
+}
+
+/* user */
+
+.write {
+  color: #FFF;
+  float: right;
+  background-color: #191970;
+  margin-top: 5%;
+  margin-right: 5%;
+  padding: 4%;
+  border: 1px solid #000022;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 12%;
+  left: 3%;
+}
+
+.write:active {
+  -webkit-animation: scale .3s ease-in-out;
+  animation: scale .3s ease-in-out;
+}
+
+@-webkit-keyframes scale {
+  50% { -webkit-transform: scale(1.1); }
+}
+@keyframes scale {
+  50% { transform: scale(1.1); }
+}
+
+.domybest {
+  clear: both;
+  padding-top: 10%;
+}
+
+.contena {
+  background-color: #D9E5FF;
+  margin-top: 0;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.sharecheck {
+  float: left;
+  height: 20px;
+  margin-top: 4px;
+  margin-left: 10%;
+}
+
+.sharep {
+  display: inline-block;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.shareonoff {
+  display: inline-block;
+  margin-left: 10px;
+  padding-left: 5px;
+}
+
+.shareon {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-right: 6px;
+  border-right: 1px solid;
+}
+
+.shareoff {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.fa-ellipsis-v {
+  float: right;
+  margin-top: 6px;
+  margin-right: 10%;
+  padding: 0 5px
+}
+
+.contents {
+  clear: both;
+}
+
+.content {
+  float: left;
+  background-color: #FFF;
+  margin-top: 7px;
+  margin-left: 1%;
+  padding: 4% 36%;
+  border-radius: 10px;
+}
+
+.mybestor {
+  float: right;
+  margin-right: 1%;
+}
+
+.evaluation {
+  clear: both;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-right: 15%;
+  margin-left: 8%;
+}
+
+.can, .cannot {
+  color: #FFF;
+  background-color: #191970;
+  padding: 1px 7px;
+  border-radius: 4px;/*角の丸み*/
+  box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+  font-weight: bold;
+  border: solid 2px #000022;/*線色*/
+  box-sizing: border-box;
+}
+
+.can:active {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+
+.cannot:active {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+
+.evaluation p {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 15%;
+  margin-left: 1%;
+}
+
+/* formerboyfriend */
+.all-delate {
+  float: right;
+  margin-right: 5%;
+  margin-bottom: 40px;
+  background-color: #FF8856;
+  height: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: solid 1px #FF4F02;
+  border-radius: 4px;
+  box-shadow: inset 0 2px 0 rgba(255,255,255,0.2);
+  text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+}
+
+.all-delate:active {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+
+.all-delate p {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 20px;
+  border-radius: 10px;
+}
+
+/* home */
+
+.everyonecontena {
+  background-color: #D9E5FF;
+  margin-top: 3%;
+  margin-left: 1%;
+  margin-right: 1%;
+  border-radius: 10px;
+}
+
+.everyonecontent {
+  float: left;
+  background-color: #FFF;
+  margin-top: 7px;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 4% 44%;
+  border-radius: 10px;
+}
+
+.everynonevaluation {
+  clear: both;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-right: 15%;
+  margin-left: 20%;
+}
+
+.everynonevaluation p {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20%;
+  margin-left: 1%;
+}
+
+/* formerboyfriend */
+
+.pastcontena {
+  background-color: #D9E5FF;
+  margin-top: 3%;
+  margin-left: 1%;
+  margin-right: 1%;
+  border-radius: 10px;
+  clear: both;
+}
+
+/* onoffボタン */
+
+.switch input {
+    display: none;
+}
+.switch label {
+    padding: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.switch label:before {
+    padding: 2px 10px;
+    content: 'O N';
+    border-radius: 6px 0 0 6px;
+    background: linear-gradient(to bottom, #F0F0F0 0%, #DDD 100%);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1) inset;
+    color: #333;
+}
+.switch label:after {
+    padding: 2px 10px;
+    content: 'OFF';
+    border-radius: 0 6px 6px 0;
+    background: #C30;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1) inset;
+    color: #FFF;
+}
+.switch input + label:hover:before {
+    opacity: 0.5;
+}
+.switch input:checked + label:before {
+    background: #9C0;
+    color: #FFF;
+    opacity: 1;
+}
+.switch input:checked + label:after {
+    background: linear-gradient(to bottom, #F0F0F0 0%, #DDD 100%);
+    color: #333;
+}
+.switch input:checked + label:hover:after {
+    opacity: 0.5;
+}
